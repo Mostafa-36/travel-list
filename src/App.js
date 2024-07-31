@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+const initialItems = [];
 export default function App() {
   const [items, setItems] = useState([]);
 
